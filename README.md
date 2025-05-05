@@ -2,7 +2,7 @@
 
 This script implements a field of view detection system inspired by modern XCOM games, where:
 
-1. A sphere cast identifies potential targets within a specified radius
+1. An OverlapSphere identifies all objects within a specified layer in a specified radius
 
 2. A primary visibility check occurs along a direct line from observer to target
 
